@@ -2,9 +2,10 @@
   "name": "ci-pipeline-demo",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
+    "eslint": "^9.39.1",
     "jest": "^29.0.0"
   }
 }
